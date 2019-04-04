@@ -35,6 +35,6 @@ RUN conda update --yes conda && conda update --all --yes && conda config --add c
 # Configure project
 COPY . {{cookiecutter.project_slug}}
 WORKDIR $HOME/{{cookiecutter.project_slug}}
-#RUN make install-dev && make requirements && make install
+RUN make install-dev && make requirements && make install
 
 EXPOSE {{cookiecutter.container_port}}
