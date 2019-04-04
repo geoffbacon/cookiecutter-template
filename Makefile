@@ -1,2 +1,2 @@
-bake: ## generate new project using default settings
-	cookiecutter --no-input --overwrite-if-exists --output-dir .. .
+bake: ## generate new project
+	cookiecutter --overwrite-if-exists --output-dir .. .
