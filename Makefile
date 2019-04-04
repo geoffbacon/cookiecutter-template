@@ -1,2 +1,2 @@
 bake: ## generate new project using default settings
-	cookiecutter --no-inputs . --overwrite-if-exists
+	cookiecutter --no-input . --overwrite-if-exists
