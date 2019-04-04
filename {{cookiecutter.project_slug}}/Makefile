@@ -2,7 +2,7 @@ SRC = {{cookiecutter.project_slug}}
 TAG = {{cookiecutter.author_dockerhub}}/{{cookiecutter.project_slug}}:latest
 
 requirements: ## create requirements.txt
-	pipreqs --force $(SRC)
+	pipreqs --force --savepath requirements.txt $(SRC)
 
 install: ## install requirements
 	conda install --yes --file requirements.txt
