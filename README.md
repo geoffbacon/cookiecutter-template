@@ -19,7 +19,7 @@ This is my [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) templa
     * Paper
 
 ## Contributing
-Contributions welcome! For any bugs, questions, suggested improvements, please start a GitHub issue and we'll take it from there. Alternatively, you can email {{cookiecutter.author_name}} on {{cookiecutter.author_email}}.
+Contributions welcome! For any bugs, questions, suggested improvements, please start a GitHub issue and we'll take it from there. Alternatively, you can email Geoff on bacon@berkeley.edu.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
