@@ -1,0 +1,18 @@
+{
+  "project_name": "Project Name",
+  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
+  "repo_name": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
+  "description": "This is a short description of the project.",
+  "version": "0.1.0",
+
+  "author_name": "Geoff Bacon",
+  "author_email": "bacon@berkeley.edu",
+  "author_url": "https://geoffbacon.github.io/",
+  "author_github": "geoffbacon",
+  "author_dockerhub": "geoffbacon",
+
+  "shebang_shell": "#!/bin/bash",
+  "shebang_coding": "# -*- coding: utf 8 -*-",
+  "container_port": "8888",
+  "host_port": "8889"
+}

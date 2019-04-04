@@ -1,0 +1,8 @@
+pipreqs
+pylint
+pycodestyle
+pydocstyle
+isort
+yapf
+pip
+jupyter
